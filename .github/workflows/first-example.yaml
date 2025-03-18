@@ -11,11 +11,9 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
 
-            - name: list files
-              run: ls -a
-
-            - name: Print a message
-              run: echo "Hello, world!"
-
-            - name: Read file
-              run: cat README.md
+            - name: Welcome message
+              run: |
+                echo "Hello, world!"
+                echo "This is my first workflow."
+                ls -a
+                cat README.md
