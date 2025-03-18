@@ -17,3 +17,6 @@ jobs:
                 echo "This is my first workflow."
                 ls -a
                 cat README.md
+
+            - name: Generate ASCII content
+              run: cowsay -f dragon "Run for cover" >> dragon.txt
