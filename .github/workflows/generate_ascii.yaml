@@ -11,7 +11,7 @@ jobs:
 
             - name: Execting shellscript
               run: |
-               chmod +x
+               chmod +x script.sh
                ./script.sh
 
             - name: Generate ASCII content
