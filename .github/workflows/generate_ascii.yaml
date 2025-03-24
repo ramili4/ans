@@ -10,7 +10,9 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Execting shellscript
-              run: ./script.sh
+              run: |
+               chmod +x
+               ./script.sh
 
             - name: Generate ASCII content
               run: cowsay -f dragon "Run for cover" >> dragon.txt
