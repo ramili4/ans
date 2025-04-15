@@ -1,0 +1,8 @@
+apiVersion: v2
+name: my-elastic-stack
+description: A wrapper chart to deploy Elasticsearch from external repo
+version: 0.1.0
+dependencies:
+  - name: elasticsearch
+    version: 8.5.1
+    repository: https://ramili4.github.io/helm-charts-repo
