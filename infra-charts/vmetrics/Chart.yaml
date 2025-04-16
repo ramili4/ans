@@ -6,4 +6,4 @@ version: 0.1.0
 dependencies:
   - name: victoria-metrics-operator
     version: 0.44.0
-    repository: https://ramili4.github.io/helm-charts-repo/charts
+    repository: https://ramili4.github.io/helm-charts-repo
