@@ -5,4 +5,4 @@ version: 0.1.0
 dependencies:
   - name: nginx
     version: 19.1.0
-    repository: https://ramili4.github.io/helm-charts-repo/
+    repository: https://ramili4.github.io/helm-charts-repo/charts
