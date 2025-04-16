@@ -2,5 +2,9 @@ apiVersion: v2
 name: victoria-metrics-operator
 description: A test chart for deploying VictoriaMetrics Operator via Argo CD
 type: application
-version: 0.1.0
+version: 0.44.0
 appVersion: "latest"
+dependencies:
+  - name: nginx
+    version: 0.44.0
+    repository: https://ramili4.github.io/helm-charts-repo/charts
