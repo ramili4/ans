@@ -1,0 +1,11 @@
+operator:
+  enabled: true
+
+crds:
+  create: true
+
+defaultRules:
+  create: true
+
+admissionWebhooks:
+  enabled: false
