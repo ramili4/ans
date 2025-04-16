@@ -1,9 +1,8 @@
 apiVersion: v2
-name: victoria-metrics-operator
-description: A test chart for deploying VictoriaMetrics Operator via Argo CD
-type: application
-version: 0.44.0
-appVersion: "latest"
+name: my-victoria-stack
+description: A wrapper chart to deploy VictoriaMetrics Operator from external repo
+version: 0.1.0
+
 dependencies:
   - name: victoria-metrics-operator
     version: 0.44.0
